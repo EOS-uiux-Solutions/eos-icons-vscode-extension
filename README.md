@@ -1,70 +1,49 @@
-# eos-icons-vscode-extension README
+# EOS Icons VSCode Extension
 
-This is the README for your extension "eos-icons-vscode-extension". After writing up a brief description, we recommend including the following sections.
+This extension allows the users to install, import, browse, copy, bookmark [EOS icons](https://eos-icons.com/) from a well designed set of 1000+ options available.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Install EOS Icons:** Install the library using NPM, Rails gem etc. along with options to import them or add them through CDN
+- **Bookmark Icons:** Bookmark icons for easier acess
+- **Browse icons:** Use the seearch bar to get icons by the name or tag
+- **Copy SVG:** Copy the icon SVG in a single click for use in any code with options to configure size, color etc.
+- **Copy HTML:** Copy the icons in the form of `<i>` or `<img>` tags as required with options to configure size, color etc.
+- **Edit icons:** Edit icon SVGs in the editor itself to suit your needs
+- **Last Viewed:** Get the last viewed icons on top according to your browsing history
 
-For example if there is an image subfolder under your extension project workspace:
+> These are just the features planned till now. Feel free to add more with discussion on [EOS Slack](https://slack.eosdesignsystem.com/)
 
-\!\[feature X\]\(images/feature-x.png\)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Set up the repo
 
-## Requirements
+- Create the fork 
+- Clone the forked repo 
+``` shell
+git clone git@github.com:<your username>/eos-icons-vscode-extension
+```
+- Navigate to the repo
+``` shell
+cd eos-icons-vscode-extension
+```
+- Open the repo in VSCode
+``` shell
+code .
+```
+- Install the extension dependencies
+``` shell
+npm install
+```
+- Run the extension by hitting <kbd>F5</kbd> or clicking the `Run Extension` button at the bottom of your screen
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+> For the first setup, you might have to execute `npm run watch` while running the extension
 
-## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## Other guidelines
 
-For example:
+- Please check [CONTRIBUTING.md](/#) before making any contributions and ensure that you follow the coding conventions specified
 
-This extension contributes the following settings:
+* Follow the [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines) by VSCode for a consistent code
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
 
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+**Happy Coding!**
